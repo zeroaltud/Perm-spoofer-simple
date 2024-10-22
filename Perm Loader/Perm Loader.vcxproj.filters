@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include.hpp" />
+    <ClInclude Include="crypter.hpp">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="funcs.h">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="ami.h">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="loops.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="functions">
+      <UniqueIdentifier>{6f6db1ee-c3d1-414f-9501-0b80c964df75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{12f0280f-d22e-489b-b546-07e4feac6927}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
